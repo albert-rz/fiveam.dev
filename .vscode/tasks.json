@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Serve",
+            "label": "serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve --livereload",
+            "command": "cd docs && bundle exec jekyll serve --livereload",
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -14,9 +14,9 @@
             "isBackground": true,
         },
         {
-            "label": "Build",
+            "label": "build",
             "type": "shell",
-            "command": "bundle exec jekyll build",
+            "command": "cd docs && bundle exec jekyll build",
             "group": {
                 "kind": "build",
                 "isDefault": true
