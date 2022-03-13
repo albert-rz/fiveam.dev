@@ -2,8 +2,8 @@
 layout: post
 title: 'Learning JavaScript Design Patterns'
 tags: [JavaScript, Tips]
-featured_image_thumbnail: assets/images/posts/2018/5_thumbnail.jpg
-featured_image: assets/images/posts/2018/5.jpg
+featured_image_thumbnail: /assets/images/posts/2018/5_thumbnail.jpg
+featured_image: /assets/images/posts/2018/5.jpg
 ---
 
 A pattern is a reusable solution that can be applied to commonly occurring problems in software design - in our case - in writing JavaScript web applications.
