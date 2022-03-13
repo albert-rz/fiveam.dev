@@ -77,11 +77,11 @@ post_class: post-template
                 </header>
                 {% if page.previous.featured_image_thumbnail %}
                 <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.previous.featured_image_thumbnail }}" alt="{{page.previous.title}}" />
+                    <img src="{{ page.previous.featured_image_thumbnail }}" alt="{{page.previous.title}}" />
                 </a>
                 {% elsif page.previous.featured_image %}
                 <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.previous.featured_image }}" alt="{{page.previous.title}}" />
+                    <img src="{{ page.previous.featured_image }}" alt="{{page.previous.title}}" />
                 </a>
                 {% else %}
                 {% endif %}
