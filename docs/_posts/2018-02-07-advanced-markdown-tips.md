@@ -2,7 +2,7 @@
 layout: post
 title:  "Advanced Markdown tips"
 tags: [ Jekyll, Tips ]
-featured_image_thumbnail: assets/images/posts/2018/7_thumbnail.jpg
+featured_image_thumbnail: /assets/images/posts/2018/7_thumbnail.jpg
 featured_image: /assets/images/posts/2018/7.jpg
 ---
 
