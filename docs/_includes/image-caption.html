@@ -1,5 +1,5 @@
 <figure>
-    <img src="{{ include.imageurl }}" alt="{{ include.title }}"/>
+    <img src="{{ site.baseurl }}{{ include.imageurl }}" alt="{{ include.title }}" dummy="2-with-site.baseurl"/>
     {% if include.caption %}
         <figcaption class="caption-text">{{ include.caption }}</figcaption> 
     {% endif %}
