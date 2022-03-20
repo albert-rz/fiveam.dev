@@ -17,8 +17,8 @@ ga_analytics:
 author:
   name: 'albert-rz'
   image: 'authorimage.jpg'
-  greetings: 'Welcome to FiveAM.dev!'
-  description: "Hi there! My name is Albert. I'm a cloud developer based in Barcelona. It’s nice to meet you."
+  greetings: 'Hi there!'
+  description: "My name is Albert. I'm a cloud developer based in Barcelona. It’s nice to meet you."
   # bio: 'Albert is a Python cloud developer and ...'
 
 # Contact form setings
