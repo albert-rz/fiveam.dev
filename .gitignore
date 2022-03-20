@@ -1,0 +1,7 @@
+docs/_site
+docs/sass-cache
+docs/_jupytext/.ipynb_checkpoints
+
+.jekyll-cache
+
+_docs/*
