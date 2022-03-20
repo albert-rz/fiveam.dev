@@ -76,11 +76,11 @@ post_class: post-template
                     </p>
                 </header>
                 {% if page.previous.featured_image_thumbnail %}
-                <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail" dummy="79-with-site.baseurl">
+                <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
                     <img src="{{ site.baseurl }}{{ page.previous.featured_image_thumbnail }}" alt="{{page.previous.title}}" />
                 </a>
                 {% elsif page.previous.featured_image %}
-                <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail" dummy="83-with-site.baseurl">
+                <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
                     <img src="{{ site.baseurl }}{{ page.previous.featured_image }}" alt="{{page.previous.title}}" />
                 </a>
                 {% else %}
@@ -110,11 +110,11 @@ post_class: post-template
                     </p>
                 </header>
                 {% if page.next.featured_image_thumbnail %}
-                <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail" dummy="113-with-site.baseurl">
+                <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail">
                     <img src="{{ site.baseurl }}{{ page.next.featured_image_thumbnail }}" alt="{{page.next.title}}" />
                 </a>
                 {% elsif page.next.featured_image %}
-                <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail" dummy="117-with-site.baseurl">
+                <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail">
                     <img src="{{ site.baseurl }}{{ page.next.featured_image }}" alt="{{page.next.title}}" />
                 </a>
                 {% else %}

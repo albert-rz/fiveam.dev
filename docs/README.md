@@ -1,11 +1,11 @@
-# Horace Jekyll Theme v1.2.0
+# Horace Jekyll Theme v1.2.1
 
 [Theme Live Demo](https://horace.netlify.com/)
 
 ## Features
 
 * Mobile-ready
-* Contact form built-in 
+* Contact form built-in
 * Social icons built-in
 * Social sharing built-in
 * Mailchimp subscription form
@@ -81,7 +81,7 @@ Within your blog posts you can include captions for images. This requires using 
 The example below illustrates how to include an image with a caption in a blog post:
 
 ~~~~
-{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg" 
+{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg"
 title="Apple Super" caption="supertest" %}
 ~~~~
 
@@ -92,7 +92,7 @@ Add the following code into your post/page markdown and change its attributes ac
 To have wide images in posts or pages simply add #wide word with the hashtag at the end of image path like in the example below:
 
 ~~~~
-{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg#wide" 
+{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg#wide"
 title="Apple" caption="This is caption" %}
 ~~~~
 

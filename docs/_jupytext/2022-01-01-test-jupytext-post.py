@@ -4,8 +4,8 @@
 # tags: [ Python ]
 # featured_image_thumbnail: /assets/images/posts/2018/12_thumbnail.jpg
 # # featured_image: /assets/images/posts/2018/12.jpg
-# featured: false
-# hidden: false
+# featured: true
+# hidden: true
 # jupyter:
 #   jupytext:
 #     formats: py:percent

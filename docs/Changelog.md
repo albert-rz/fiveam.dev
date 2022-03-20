@@ -1,5 +1,27 @@
 # Horace Jekyll Theme
 
+## Version 1.2.1 – 06 February 2022:
+
+- Added: SVG icons ( _includes/icons/).
+- Added: .gitignore file.
+- Added: assets/js/jquery-3.4.1.min.js
+
+Files updated:
+
+- Updated _includes/social-links.html
+- Updated _includes/sidebar.html
+- Updated _includes/header.html
+- Updated _includes/featuredbox.html
+- Updated Gemfile
+- Updated Sass files in _sass/ dir
+
+Files deleted:
+
+- jquery in _site/assets/js/jquery-3.3.1.min.js
+- All files in _site/assets/fonts/ dir
+- Gemfile.lock
+
+
 ## Version 1.2.0 – 14 December 2018:
 
 - added: Jekyll SEO tag plugin.
@@ -30,7 +52,7 @@ Files updated:
 
 ## Version 1.1.1 – 4 December 2018:
 
-- improved: single tag page. 
+- improved: single tag page.
 - fixed: contact form on mobile.
 
 Files updated:
