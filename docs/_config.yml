@@ -15,14 +15,14 @@ ga_analytics:
 
 # Author
 author:
-  name: 'Albert Ruiz'
+  name: 'albert-rz'
   image: 'authorimage.jpg'
   greetings: 'Welcome to FiveAM.dev!'
-  description: "Hi there. My name is Albert. I'm a Python cloud developer based in Barcelona. It’s nice to meet you."
-  bio: 'Daniel is a Python cloud developer and ...'
+  description: "Hi there! My name is Albert. I'm a cloud developer based in Barcelona. It’s nice to meet you."
+  # bio: 'Albert is a Python cloud developer and ...'
 
 # Contact form setings
-email: youremail@email.com
+email: contact@fiveam.dev
 contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
@@ -40,10 +40,10 @@ linkedin: 'albert-rz'
 
 # Navigation
 navigation:
-  - text: About
-    url: /about
-  - text: Style Guide
-    url: /style-guide
+  # - text: About
+  #   url: /about
+  # - text: Style Guide
+  #   url: /style-guide
   - text: Contact Me
     url: /contact
 
