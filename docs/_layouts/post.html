@@ -38,14 +38,14 @@ post_class: post-template
                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.production_url }}{{ page.url | remove_first: '/' }}">Facebook</a>
                 </div><!-- .share-post -->
             </footer>
-            <!-- <div class="author-box">
+            <div class="author-box">
                 <div class="author-avatar"><img src="{{ site.baseurl }}/assets/images/{{ site.author.image }}" alt="{{ site.author.name }}'s Picture"
                         class="avatar"></div>
                 <div class="author-details">
                     <h2 class="author-title">About {{ site.author.name }}</h2>
                     <p class="author-description">{{ site.author.bio }}</p>
                 </div>
-            </div> -->
+            </div>
             {% include disqus.html %}
         </article>
         {% if site.mailchimp_url %}
@@ -77,11 +77,11 @@ post_class: post-template
                 </header>
                 {% if page.previous.featured_image_thumbnail %}
                 <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.previous.featured_image_thumbnail }}" alt="{{page.previous.title}}" />
+                    <img src="{{ page.previous.featured_image_thumbnail }}" alt="{{page.previous.title}}" />
                 </a>
                 {% elsif page.previous.featured_image %}
                 <a href="{{ site.baseurl }}{{page.previous.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.previous.featured_image }}" alt="{{page.previous.title}}" />
+                    <img src="{{ page.previous.featured_image }}" alt="{{page.previous.title}}" />
                 </a>
                 {% else %}
                 {% endif %}
@@ -111,11 +111,11 @@ post_class: post-template
                 </header>
                 {% if page.next.featured_image_thumbnail %}
                 <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.next.featured_image_thumbnail }}" alt="{{page.next.title}}" />
+                    <img src="{{ page.next.featured_image_thumbnail }}" alt="{{page.next.title}}" />
                 </a>
                 {% elsif page.next.featured_image %}
                 <a href="{{ site.baseurl }}{{page.next.url}}" class="post-thumbnail">
-                    <img src="{{ site.baseurl }}{{ page.next.featured_image }}" alt="{{page.next.title}}" />
+                    <img src="{{ page.next.featured_image }}" alt="{{page.next.title}}" />
                 </a>
                 {% else %}
                 {% endif %}
