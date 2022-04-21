@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bla bla This is just a demo"
+title:  "Bla bla This is just a demo - 2022-04-20"
 tags: [ Python ]
 featured_image_thumbnail: /assets/images/posts/2018/12_thumbnail.jpg
 featured_image: /assets/images/posts/2018/12.jpg
