@@ -92,7 +92,7 @@ Code blocks, highlighted with [Prism](http://prismjs.com/index.html).
 		&lt;h1&gt;Full list of features&lt;/h1&gt;
 		&lt;ul&gt;
 			&lt;li&gt;&lt;strong&gt;Only 2KB&lt;/strong&gt; minified &amp; gzipped (core). Each language definition adds roughly 300-500 bytes.&lt;/li&gt;
-			&lt;li&gt;Very easy to extend without modifying the code, due to Prism’s &lt;a href="#plugins"&gt;plugin architecture&lt;/a&gt;. Multiple hooks are scattered throughout the source.&lt;/li&gt;
+			&lt;li&gt;Very easy to extend without modifying the code, due to Prism's &lt;a href="#plugins"&gt;plugin architecture&lt;/a&gt;. Multiple hooks are scattered throughout the source.&lt;/li&gt;
 			&lt;li&gt;Very easy to &lt;a href="extending.html#language-definitions"&gt;define new languages&lt;/a&gt;. Only thing you need is a good understanding of regular expressions&lt;/li&gt;
 		&lt;/ul&gt;
 	&lt;/section&gt;
