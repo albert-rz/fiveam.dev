@@ -19,7 +19,7 @@ site: clean posts
 	cd docs && bundle exec jekyll build
 	$(call tidy_up)	
 
-gh-site: clean
+gh-site: clean posts
 	cd docs && bundle exec jekyll build -b https://albert-rz.github.io/fiveam.dev/
 	$(call tidy_up)
 
